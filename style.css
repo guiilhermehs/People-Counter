@@ -1,5 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana;
+}
+
+body div {
+    display: flex;
+    width: 200px;
+    height: 300px;
+    background-color: #d3d3d3;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    width: 60%;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button:active {
+    transform: scale(0.98);
+    opacity: 0.6;
+}
+
+#increment-btn {
+    background-color: darkgreen;
+}
+
+#decrement-btn {
+    background-color: darkred;
 }
